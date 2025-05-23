@@ -16,12 +16,12 @@ export default function Home() {
   }
 
   return (
-    <div className="flex min-h-screen items-center justify-center">
+    <div className="flex min-h-screen items-center justify-center px-4 py-8">
       <div className="flex w-full max-w-lg flex-col">
         <div className="mb-8 flex flex-col items-center gap-2.5">
-          <h1 className="font-medium text-4xl">Delegacia 5.0</h1>
+          <h1 className="text-center font-medium text-4xl">Delegacia 5.0</h1>
 
-          <h2 className="font-medium text-2xl text-muted-foreground">
+          <h2 className="text-center font-medium text-2xl text-muted-foreground">
             Encontre Dados de Suspeitos Rapidamente
           </h2>
         </div>
