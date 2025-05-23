@@ -19,10 +19,10 @@ export default function Home() {
     <div className="flex min-h-screen items-center justify-center">
       <div className="flex w-full max-w-lg flex-col">
         <div className="mb-8 flex flex-col items-center gap-2.5">
-          <h1 className="font-medium text-4xl">Polaris</h1>
+          <h1 className="font-medium text-4xl">Delegacia 5.0</h1>
 
           <h2 className="font-medium text-2xl text-muted-foreground">
-            Find relevant data at lightning speed
+            Encontre Dados de Suspeitos Rapidamente
           </h2>
         </div>
 
@@ -41,7 +41,7 @@ export default function Home() {
           onClick={handleStart}
           disabled={scaning}
         >
-          {scaning ? 'Loading Relevant Data' : 'Get Started'}
+          {scaning ? 'Escaneando Biometria' : 'Começar'}
         </Button>
       </div>
     </div>

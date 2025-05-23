@@ -47,68 +47,48 @@ export default function Facescan() {
 
       <div className="flex max-w-lg flex-col font-medium text-base text-neutral-400">
         <div>
-          <span className="text-white">Individual: </span>
+          <span className="text-white">Nome: </span>
           Davi Melo
         </div>
 
         <div>
-          <span className="text-white">Birth Date: </span>
+          <span className="text-white">Data de Nascimento: </span>
           01/08/2008
         </div>
 
         <div>
-          <span className="text-white">SSN: </span>
-          123-45-6789
+          <span className="text-white">CPF: </span>
+          000.000.000-XX
         </div>
 
         <div>
-          <span className="text-white">Address: </span>
-          Sector 12, Alpha Zone - Neon District, Megacity 09
+          <span className="text-white">Endereço: </span>
+          Setor 12, Zona Alfa - Distrito Neon
         </div>
 
         <div>
-          <span className="text-white">Ocupation: </span>
-          Software Engineer
+          <span className="text-white">Profissão: </span>
+          Professor
         </div>
 
         <div>
-          <span className="text-white">Nacionality: </span>
-          Brazilian
+          <span className="text-white">Nacionalidade: </span>
+          Brasileiro
         </div>
 
         <div>
-          <span className="text-white">Criminal Record: </span>
-          None
+          <span className="text-white">Ficha Criminal: </span>
+          Sem dados
         </div>
 
         <div>
-          <span className="text-white">Last Known Location: </span>
-          Neon District, Surveillance Grid 7B
+          <span className="text-white">Visto por último em: </span>
+          Distrito Nenon, Rua Sol da Tarde
         </div>
 
         <div>
-          <span className="text-white">Wanted Status: </span>
-          Not Listed
-        </div>
-
-        <div>
-          <span className="text-white">Threat Level: </span>
-          Low
-        </div>
-
-        <div>
-          <span className="text-white">Surveillance Priority: </span>
-          Tier 4 (Routine Monitoring)
-        </div>
-
-        <div>
-          <span className="text-white">Last Surveillance Check: </span>
-          23/05/2025 - 14:37 UTC
-        </div>
-
-        <div>
-          <span className="text-white">Communication Logs: </span>
-          Monitored - Encrypted Traffic Detected
+          <span className="text-white">Risco: </span>
+          Baixo
         </div>
       </div>
     </div>

@@ -12,12 +12,17 @@ export default function Considerations() {
         </div>
 
         <p className="text-center font-medium text-2xl text-neutral-400">
-          Individual under surveillance, male, approximately 32 years old, last
-          seen near downtown at 10 PM.
+          Suspeito sob vigilância, masculino, aproximadamente 32 anos de idade,
+          visto ultimamente perto de casa às 10 PM.
         </p>
 
-        <Button className="self-stretch">Recent Security Camera Footage</Button>
-        <Button className="self-stretch">Family Members and Related People</Button>
+        <Button className="self-stretch">
+          Images Recentes
+        </Button>
+        
+        <Button className="self-stretch">
+          Familiares e Pessoas Relacionadas
+        </Button>
       </div>
     </div>
   )

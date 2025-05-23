@@ -8,9 +8,9 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: 'Polaris',
+  title: 'Delegacia 5.0',
   description:
-    'Software that discover information about individuals from biometrical data.',
+    'Software que descobre informações sobre indivíduos a partir de dados biométricos.',
 }
 
 export default function RootLayout({
@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html className="dark" lang="en">
+    <html className="dark" lang="pt-BR">
       <body
         className={cn(
           spaceGrotesk.className,
