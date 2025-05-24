@@ -34,7 +34,7 @@ export function MessageForm({ enabled, onSend }: MessageFormProps) {
         disabled={!enabled}
         ref={inputRef}
         className="flex-1 outline-none"
-        placeholder="Send message..."
+        placeholder="Enviar mensagem..."
         type="text"
       />
 
