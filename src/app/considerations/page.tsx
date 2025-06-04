@@ -17,7 +17,7 @@ export default function Considerations() {
         </p>
 
         <Button className="self-stretch">
-          Images Recentes
+          Imagens Recentes
         </Button>
         
         <Button className="self-stretch">
